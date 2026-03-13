@@ -2,7 +2,7 @@ import  requests
 
 BASE_URL = "https://market-delivery.yandex.ru"
 #перед тем как запустить автотесты вам необходимо авторизоваться на странице и получить токен
-TOKEN = "y2_AgAAAAD04omrAAAPeAAAAAACRpC94Qk6Z5rUTgOcTgYFECJllXYKFx8"
+TOKEN = ""
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
